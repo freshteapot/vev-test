@@ -1,68 +1,27 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# Code
+Is under "src/", to see it in action, follow "Install and run it".
 
----
-
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
+# Install and run it
+- clone the repo and install it
+```sh
+git clone https://github.com/freshteapot/vev-test.git
+cd vev-test
 npm install
 ```
 
-...then start [Rollup](https://rollupjs.org):
-
-```bash
+Run the dev server
+```sh
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
+Open browser and goto (or look in the terminal if the ip is different)
+```s
+http://127.0.0.1:5000/
 ```
 
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+# Reference
+- [svelte rollup skeleton](https://github.com/sveltejs/template).
+- [drag events](https://developer.mozilla.org/en-US/docs/Web/API/Document/drag_event)
+- [degrees and radians](https://www.rapidtables.com/convert/number/degrees-to-radians.html)
+- [calculating point based on angle, point and distance](https://math.stackexchange.com/questions/143932/calculate-point-given-x-y-angle-and-distance)
+- [Svelte tutorial](https://svelte.dev/tutorial/)
